@@ -1,0 +1,598 @@
+Analysis & Elaboration report for ARMV4
+Sun Nov 11 05:39:42 2018
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxPC
+  5. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|adderARM:adderPCPLUS4
+  6. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|adderARM:adderPCPLUS8
+  7. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxRA1
+  8. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxRA2
+  9. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxRam
+ 10. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxALU
+ 11. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU
+ 12. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|mux_Sumador:mux_S
+ 13. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|sumador:suma_F
+ 14. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|and_A:and_F
+ 15. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|or_A:or_F
+ 16. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|xor_A:xor_F
+ 17. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|not_A:not_F
+ 18. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|left_shift_arithmetic:lsa
+ 19. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|right_shift_arithmetic:rsa
+ 20. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|left_shift_logic:lsl
+ 21. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|right_shift_logic:rsl
+ 22. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|mux_ALU:mux_F
+ 23. Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|flags:flags_F
+ 24. Analysis & Elaboration Settings
+ 25. Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxRA1"
+ 26. Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|adderARM:adderPCPLUS8"
+ 27. Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|adderARM:adderPCPLUS4"
+ 28. Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit|conditional_logic:conditional_logic_unit|REG_EN:reg_2"
+ 29. Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit|conditional_logic:conditional_logic_unit|REG_EN:reg_1"
+ 30. Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit|decoder:decoder_unit"
+ 31. Port Connectivity Checks: "ARM_RAM_INS:dut"
+ 32. Analysis & Elaboration Messages
+ 33. Analysis & Elaboration Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Sun Nov 11 05:39:42 2018       ;
+; Quartus Prime Version         ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
+; Revision Name                 ; ARMV4                                       ;
+; Top-level Entity Name         ; tb_ARM_RAM_INS                              ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxPC ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                      ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|adderARM:adderPCPLUS4 ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                               ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                     ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|adderARM:adderPCPLUS8 ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                               ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                     ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxRA1 ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+; N              ; 4     ; Signed Integer                                                                             ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxRA2 ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+; N              ; 4     ; Signed Integer                                                                             ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxRam ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                             ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxALU ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                             ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU ;
++----------------+-------+---------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                        ;
++----------------+-------+---------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                              ;
++----------------+-------+---------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|mux_Sumador:mux_S ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                          ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                                ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|sumador:suma_F ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                       ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                             ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|and_A:and_F ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                    ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                          ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|or_A:or_F ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                        ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|xor_A:xor_F ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                    ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                          ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|not_A:not_F ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                    ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                          ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|left_shift_arithmetic:lsa ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                  ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                                        ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|right_shift_arithmetic:rsa ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                   ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                                         ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|left_shift_logic:lsl ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                             ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                                   ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|right_shift_logic:rsl ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|mux_ALU:mux_F ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; N              ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|flags:flags_F ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; N_b            ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                           ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
+; Top-level entity name                                                           ; tb_ARM_RAM_INS     ; ARMV4              ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++----------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxRA1" ;
++------+-------+----------+--------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                  ;
++------+-------+----------+--------------------------------------------------------------------------+
+; B    ; Input ; Info     ; Stuck at VCC                                                             ;
++------+-------+----------+--------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|adderARM:adderPCPLUS8" ;
++----------+-------+----------+------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                      ;
++----------+-------+----------+------------------------------------------------------------------------------+
+; B[31..3] ; Input ; Info     ; Stuck at GND                                                                 ;
+; B[1..0]  ; Input ; Info     ; Stuck at GND                                                                 ;
+; B[2]     ; Input ; Info     ; Stuck at VCC                                                                 ;
++----------+-------+----------+------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|adderARM:adderPCPLUS4" ;
++----------+-------+----------+------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                      ;
++----------+-------+----------+------------------------------------------------------------------------------+
+; B[31..3] ; Input ; Info     ; Stuck at GND                                                                 ;
+; B[1..0]  ; Input ; Info     ; Stuck at GND                                                                 ;
+; B[2]     ; Input ; Info     ; Stuck at VCC                                                                 ;
++----------+-------+----------+------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit|conditional_logic:conditional_logic_unit|REG_EN:reg_2" ;
++------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                                ;
++------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+; out  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                    ;
++------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit|conditional_logic:conditional_logic_unit|REG_EN:reg_1" ;
++------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                                ;
++------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+; out  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                    ;
++------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit|decoder:decoder_unit"  ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; NoWrite ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ARM_RAM_INS:dut"                                                                         ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; clk       ; Input  ; Info     ; Stuck at GND                                                                        ;
+; WriteData ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; DataAdr   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MemWrite  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+    Info: Processing started: Sun Nov 11 05:39:06 2018
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ARMV4 -c ARMV4 --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file tb_arm_ram_ins.sv
+    Info (12023): Found entity 1: tb_ARM_RAM_INS File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_ARM_RAM_INS.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/xor_a.sv
+    Info (12023): Found entity 1: xor_A File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/xor_A.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/sumador.sv
+    Info (12023): Found entity 1: sumador File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/sumador.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/simpleadder.sv
+    Info (12023): Found entity 1: simpleAdder File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/simpleAdder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/right_shift_logic.sv
+    Info (12023): Found entity 1: right_shift_logic File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_logic.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/right_shift_arithmetic.sv
+    Info (12023): Found entity 1: right_shift_arithmetic File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_arithmetic.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/or_a.sv
+    Info (12023): Found entity 1: or_A File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/or_A.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/not_a.sv
+    Info (12023): Found entity 1: not_A File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/not_A.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/mux_sumador.sv
+    Info (12023): Found entity 1: mux_Sumador File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_Sumador.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/mux_alu.sv
+    Info (12023): Found entity 1: mux_ALU File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_ALU.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/left_shift_logic.sv
+    Info (12023): Found entity 1: left_shift_logic File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_logic.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/left_shift_arithmetic.sv
+    Info (12023): Found entity 1: left_shift_arithmetic File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_arithmetic.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/flags.sv
+    Info (12023): Found entity 1: flags File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/flags.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/and_a.sv
+    Info (12023): Found entity 1: and_A File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/and_A.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/alu_test.sv
+    Info (12023): Found entity 1: ALU_TEST File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_TEST.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/alu_n_bits.sv
+    Info (12023): Found entity 1: ALU_N_bits File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_register_file.sv
+    Info (12023): Found entity 1: tb_register_file File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_register_file.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_instruction_memory.sv
+    Info (12023): Found entity 1: tb_instruction_memory File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_instruction_memory.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file muxarm.sv
+    Info (12023): Found entity 1: muxARM File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/muxARM.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_muxarm.sv
+    Info (12023): Found entity 1: tb_muxARM File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_muxARM.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file adderarm.sv
+    Info (12023): Found entity 1: adderARM File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/adderARM.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_adderarm.sv
+    Info (12023): Found entity 1: tb_adderARM File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_adderARM.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file pc_reg.sv
+    Info (12023): Found entity 1: PC_REG File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/PC_REG.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_pc_reg.sv
+    Info (12023): Found entity 1: tb_PC_REG File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_PC_REG.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file instruction_memory.sv
+    Info (12023): Found entity 1: instruction_memory File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/instruction_memory.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file data_memory.sv
+    Info (12023): Found entity 1: data_memory File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_memory.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_data_memory.sv
+    Info (12023): Found entity 1: tb_data_memory File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_data_memory.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file register_file.sv
+    Info (12023): Found entity 1: register_file File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/register_file.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file extend.sv
+    Info (12023): Found entity 1: extend File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/extend.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_extend.sv
+    Info (12023): Found entity 1: tb_extend File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_extend.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file data_path.sv
+    Info (12023): Found entity 1: data_path File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv Line: 1
+Warning (10090): Verilog HDL syntax warning at tb_data_path.sv(69): extra block comment delimiter characters /* within block comment File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_data_path.sv Line: 69
+Info (12021): Found 1 design units, including 1 entities, in source file tb_data_path.sv
+    Info (12023): Found entity 1: tb_data_path File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_data_path.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file decoder.sv
+    Info (12023): Found entity 1: decoder File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/decoder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_decoder.sv
+    Info (12023): Found entity 1: tb_decoder File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_decoder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file conditions.sv
+    Info (12023): Found entity 1: conditions File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditions.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file reg_en.sv
+    Info (12023): Found entity 1: REG_EN File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/REG_EN.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_reg_en.sv
+    Info (12023): Found entity 1: tb_REG_EN File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_REG_EN.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file conditional_logic.sv
+    Info (12023): Found entity 1: conditional_logic File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditional_logic.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file armv4.sv
+    Info (12023): Found entity 1: ARMV4 File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARMV4.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file control_unit.sv
+    Info (12023): Found entity 1: control_unit File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/control_unit.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_armv4.sv
+    Info (12023): Found entity 1: tb_ARMV4 File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_ARMV4.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/chris/documents/tec/taller/lab_3/alu_n_bits/tb_alu.sv
+    Info (12023): Found entity 1: tb_ALU File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/tb_ALU.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file arm_ram_ins.sv
+    Info (12023): Found entity 1: ARM_RAM_INS File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv Line: 1
+Info (12127): Elaborating entity "tb_ARM_RAM_INS" for the top level hierarchy
+Info (12128): Elaborating entity "ARM_RAM_INS" for hierarchy "ARM_RAM_INS:dut" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_ARM_RAM_INS.sv Line: 6
+Info (12128): Elaborating entity "instruction_memory" for hierarchy "ARM_RAM_INS:dut|instruction_memory:instruction_memory_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv Line: 7
+Warning (10030): Net "memory.data_a" at instruction_memory.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/instruction_memory.sv Line: 5
+Warning (10030): Net "memory.waddr_a" at instruction_memory.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/instruction_memory.sv Line: 5
+Warning (10030): Net "memory.we_a" at instruction_memory.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/instruction_memory.sv Line: 5
+Info (12128): Elaborating entity "ARMV4" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv Line: 8
+Info (12128): Elaborating entity "control_unit" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARMV4.sv Line: 8
+Info (12128): Elaborating entity "decoder" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit|decoder:decoder_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/control_unit.sv Line: 14
+Info (12128): Elaborating entity "conditional_logic" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit|conditional_logic:conditional_logic_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/control_unit.sv Line: 15
+Info (12128): Elaborating entity "REG_EN" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit|conditional_logic:conditional_logic_unit|REG_EN:reg_1" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditional_logic.sv Line: 10
+Info (12128): Elaborating entity "conditions" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|control_unit:control_unit_unit|conditional_logic:conditional_logic_unit|conditions:conditions_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditional_logic.sv Line: 13
+Info (12128): Elaborating entity "data_path" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARMV4.sv Line: 9
+Info (12128): Elaborating entity "muxARM" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxPC" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv Line: 26
+Info (12128): Elaborating entity "PC_REG" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|PC_REG:PC_REG_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv Line: 27
+Info (12128): Elaborating entity "adderARM" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|adderARM:adderPCPLUS4" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv Line: 29
+Info (12128): Elaborating entity "muxARM" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|muxARM:muxRA1" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv Line: 33
+Info (12128): Elaborating entity "register_file" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|register_file:register_file_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv Line: 44
+Info (12128): Elaborating entity "extend" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|extend:extend_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv Line: 51
+Info (12128): Elaborating entity "ALU_N_bits" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv Line: 59
+Info (12128): Elaborating entity "mux_Sumador" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|mux_Sumador:mux_S" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 25
+Info (12128): Elaborating entity "sumador" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|sumador:suma_F" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 26
+Info (12128): Elaborating entity "and_A" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|and_A:and_F" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 27
+Info (12128): Elaborating entity "or_A" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|or_A:or_F" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 28
+Info (12128): Elaborating entity "xor_A" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|xor_A:xor_F" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 29
+Info (12128): Elaborating entity "not_A" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|not_A:not_F" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 30
+Info (12128): Elaborating entity "left_shift_arithmetic" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|left_shift_arithmetic:lsa" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 31
+Info (12128): Elaborating entity "right_shift_arithmetic" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|right_shift_arithmetic:rsa" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 32
+Info (12128): Elaborating entity "left_shift_logic" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|left_shift_logic:lsl" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 33
+Info (12128): Elaborating entity "right_shift_logic" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|right_shift_logic:rsl" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 34
+Info (12128): Elaborating entity "mux_ALU" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|mux_ALU:mux_F" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 37
+Info (12128): Elaborating entity "flags" for hierarchy "ARM_RAM_INS:dut|ARMV4:ARMV4_unit|data_path:datapath_unit|ALU_N_bits:ALU|flags:flags_F" File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv Line: 40
+Info (12128): Elaborating entity "data_memory" for hierarchy "ARM_RAM_INS:dut|data_memory:data_memory_unit" File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv Line: 9
+Info (144001): Generated suppressed messages file C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/output_files/ARMV4.map.smsg
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 4810 megabytes
+    Info: Processing ended: Sun Nov 11 05:39:42 2018
+    Info: Elapsed time: 00:00:36
+    Info: Total CPU time (on all processors): 00:01:00
+
+
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
+The suppressed messages can be found in C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/output_files/ARMV4.map.smsg.
+
+

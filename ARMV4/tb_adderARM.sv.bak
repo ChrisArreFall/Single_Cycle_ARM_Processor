@@ -1,0 +1,17 @@
+module tb_adderARM();
+	logic [7:0] A, B,out;
+	// instantiate device to be tested 
+	adderARM dut(A,B,out);
+	// initialize test 
+	initial begin  
+		A        <= 8'b0001;
+		B			<= 8'b0001;
+	end
+	always 
+	begin 
+		selector <= 1; 
+		# 5; 
+		selector <= 0; 
+		# 5; 
+	end
+endmodule

@@ -1,0 +1,12 @@
+module conditional_logic(input logic clk, reset,
+								 input logic [3:0] Cond, ALUFlags,
+								 input logic PCS,RegW,MemW,
+								 input logic [1:0] FlagW
+								 output logic PCSrc,RegWrite,MemWrite);
+	
+
+
+
+
+
+endmodule

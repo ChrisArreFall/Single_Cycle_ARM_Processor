@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/muxARM.sv}
+vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_muxARM.sv}
+

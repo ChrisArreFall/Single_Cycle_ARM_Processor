@@ -1,0 +1,24 @@
+module tb_ARM_RAM_INS();
+	logic clk, reset = 0;
+	input logic clk, reset;
+	logic [31:0] WriteData, DataAdr; 
+	logic MemWrite;
+	// instantiate device to be tested 
+	ARM_RAM_INS dut(clk, reset, WriteData, DataAdr, MemWrite);
+	// initialize test
+	
+	always 
+		begin 
+			reset <= 0;
+			clk <= 1; 
+			# 5;
+			clk <= 0; 
+			# 5;
+		
+		end
+	
+		
+
+
+
+endmodule

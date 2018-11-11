@@ -1,0 +1,10 @@
+module PC_REG(input logic clk,reset,
+				  input logic [31:0] PC',
+				  output logic [31:0] PC);
+	always_ff(posedge clk, reset)
+		if(reset)
+			PC <= 0;
+		else
+			PC'<= PC;
+					
+endmodule 

@@ -1,0 +1,364 @@
+# Reading E:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do ARMV4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying E:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_ARM_RAM_INS.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:30 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_ARM_RAM_INS.sv 
+# -- Compiling module tb_ARM_RAM_INS
+# 
+# Top level modules:
+# 	tb_ARM_RAM_INS
+# End time: 05:40:30 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/xor_A.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:31 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/xor_A.sv 
+# -- Compiling module xor_A
+# 
+# Top level modules:
+# 	xor_A
+# End time: 05:40:31 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/sumador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:31 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/sumador.sv 
+# -- Compiling module sumador
+# 
+# Top level modules:
+# 	sumador
+# End time: 05:40:31 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_logic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:31 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_logic.sv 
+# -- Compiling module right_shift_logic
+# 
+# Top level modules:
+# 	right_shift_logic
+# End time: 05:40:31 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_arithmetic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:31 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_arithmetic.sv 
+# -- Compiling module right_shift_arithmetic
+# 
+# Top level modules:
+# 	right_shift_arithmetic
+# End time: 05:40:32 on Nov 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/or_A.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:32 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/or_A.sv 
+# -- Compiling module or_A
+# 
+# Top level modules:
+# 	or_A
+# End time: 05:40:32 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/not_A.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:32 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/not_A.sv 
+# -- Compiling module not_A
+# 
+# Top level modules:
+# 	not_A
+# End time: 05:40:32 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_Sumador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:32 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_Sumador.sv 
+# -- Compiling module mux_Sumador
+# 
+# Top level modules:
+# 	mux_Sumador
+# End time: 05:40:32 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:32 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_ALU.sv 
+# -- Compiling module mux_ALU
+# 
+# Top level modules:
+# 	mux_ALU
+# End time: 05:40:32 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_logic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:32 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_logic.sv 
+# -- Compiling module left_shift_logic
+# 
+# Top level modules:
+# 	left_shift_logic
+# End time: 05:40:33 on Nov 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_arithmetic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:33 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_arithmetic.sv 
+# -- Compiling module left_shift_arithmetic
+# 
+# Top level modules:
+# 	left_shift_arithmetic
+# End time: 05:40:33 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/flags.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:33 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/flags.sv 
+# -- Compiling module flags
+# 
+# Top level modules:
+# 	flags
+# End time: 05:40:33 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/and_A.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:33 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/and_A.sv 
+# -- Compiling module and_A
+# 
+# Top level modules:
+# 	and_A
+# End time: 05:40:33 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits {C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:33 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits" C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv 
+# -- Compiling module ALU_N_bits
+# 
+# Top level modules:
+# 	ALU_N_bits
+# End time: 05:40:34 on Nov 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/muxARM.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:34 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/muxARM.sv 
+# -- Compiling module muxARM
+# 
+# Top level modules:
+# 	muxARM
+# End time: 05:40:34 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/adderARM.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:34 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/adderARM.sv 
+# -- Compiling module adderARM
+# 
+# Top level modules:
+# 	adderARM
+# End time: 05:40:34 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/PC_REG.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:34 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/PC_REG.sv 
+# -- Compiling module PC_REG
+# 
+# Top level modules:
+# 	PC_REG
+# End time: 05:40:34 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:34 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_memory.sv 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 05:40:35 on Nov 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:35 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 05:40:35 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:35 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv 
+# -- Compiling module data_path
+# 
+# Top level modules:
+# 	data_path
+# End time: 05:40:35 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:35 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 05:40:36 on Nov 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditions.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:36 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditions.sv 
+# -- Compiling module conditions
+# 
+# Top level modules:
+# 	conditions
+# End time: 05:40:36 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/REG_EN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:36 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/REG_EN.sv 
+# -- Compiling module REG_EN
+# 
+# Top level modules:
+# 	REG_EN
+# End time: 05:40:36 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditional_logic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:36 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditional_logic.sv 
+# -- Compiling module conditional_logic
+# 
+# Top level modules:
+# 	conditional_logic
+# End time: 05:40:37 on Nov 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARMV4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:37 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARMV4.sv 
+# -- Compiling module ARMV4
+# 
+# Top level modules:
+# 	ARMV4
+# End time: 05:40:37 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/control_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:37 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/control_unit.sv 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 05:40:37 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:37 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv 
+# -- Compiling module ARM_RAM_INS
+# 
+# Top level modules:
+# 	ARM_RAM_INS
+# End time: 05:40:38 on Nov 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/instruction_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:38 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/instruction_memory.sv 
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+# End time: 05:40:38 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4 {C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/register_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:38 on Nov 11,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4" C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/register_file.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 05:40:38 on Nov 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.tb_ARM_RAM_INS
+# vsim work.tb_ARM_RAM_INS 
+# Start time: 05:40:42 on Nov 11,2018
+# Loading sv_std.std
+# Loading work.tb_ARM_RAM_INS
+# Loading work.ARM_RAM_INS
+# Loading work.instruction_memory
+# Loading work.ARMV4
+# Loading work.control_unit
+# Loading work.decoder
+# Loading work.conditional_logic
+# Loading work.REG_EN
+# Loading work.conditions
+# Loading work.data_path
+# Loading work.muxARM
+# Loading work.PC_REG
+# Loading work.adderARM
+# Loading work.register_file
+# Loading work.extend
+# Loading work.ALU_N_bits
+# Loading work.mux_Sumador
+# Loading work.sumador
+# Loading work.and_A
+# Loading work.or_A
+# Loading work.xor_A
+# Loading work.not_A
+# Loading work.left_shift_arithmetic
+# Loading work.right_shift_arithmetic
+# Loading work.left_shift_logic
+# Loading work.right_shift_logic
+# Loading work.mux_ALU
+# Loading work.flags
+# Loading work.data_memory
+# ** Warning: (vsim-3839) C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv(21): Variable '/tb_ARM_RAM_INS/dut/ARMV4_unit/datapath_unit/ALU/flags', driven via a port connection, is multiply driven. See C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv(40).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ARM_RAM_INS/dut/ARMV4_unit/datapath_unit/ALU File: C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv
+# ** Warning: (vsim-3839) C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv(21): Variable '/tb_ARM_RAM_INS/dut/ARMV4_unit/datapath_unit/PCPLUS8', driven via a port connection, is multiply driven. See C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ARM_RAM_INS/dut/ARMV4_unit/datapath_unit File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv
+# ** Warning: (vsim-3839) C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv(20): Variable '/tb_ARM_RAM_INS/dut/ARMV4_unit/datapath_unit/PCPLUS4', driven via a port connection, is multiply driven. See C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv(29).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ARM_RAM_INS/dut/ARMV4_unit/datapath_unit File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv
+# ** Warning: (vsim-3839) C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv(19): Variable '/tb_ARM_RAM_INS/dut/ARMV4_unit/datapath_unit/PC_in', driven via a port connection, is multiply driven. See C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ARM_RAM_INS/dut/ARMV4_unit/datapath_unit File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv
+# ** Warning: (vsim-3839) C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv(18): Variable '/tb_ARM_RAM_INS/dut/ARMV4_unit/datapath_unit/Result', driven via a port connection, is multiply driven. See C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv(47).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ARM_RAM_INS/dut/ARMV4_unit/datapath_unit File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv
+# ** Warning: (vsim-3839) C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv(5): Variable '/tb_ARM_RAM_INS/dut/PC', driven via a port connection, is multiply driven. See C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ARM_RAM_INS/dut File: C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position end sim:/tb_ARM_RAM_INS/dut/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Chris  Hostname: DESKTOP-QNMHHR9  ProcessID: 4376
+#           Attempting to use alternate WLF file "./wlftgkybz3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgkybz3
+run
+# End time: 05:42:15 on Nov 11,2018, Elapsed time: 0:01:33
+# Errors: 14, Warnings: 8

@@ -1,0 +1,749 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/simulation/modelsim
+vadderARM
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1541936434
+!i10b 1
+!s100 M[Bd9zdah_XdblUOFR[Rz0
+Ij>3ek54P1El6CQ7PCOGR@0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adderARM_sv_unit
+S1
+R0
+w1541758426
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/adderARM.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/adderARM.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1541936434.000000
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/adderARM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/adderARM.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4
+Z8 tCvgOpt 0
+nadder@a@r@m
+vALU_N_bits
+R1
+R2
+!i10b 1
+!s100 V`7U^c9G<o4WfImL>1^Ne1
+IGdlDLk7mB@Q76eAKaldg51
+R3
+!s105 ALU_N_bits_sv_unit
+S1
+R0
+w1541933901
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1541936433.000000
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/ALU_N_bits.sv|
+!i113 1
+R6
+Z10 !s92 -sv -work work +incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits
+R8
+n@a@l@u_@n_bits
+vand_A
+R1
+Z11 !s110 1541936433
+!i10b 1
+!s100 nW0O3=eBl]eh?jJ_Bgjm[2
+IDHe2<CLKME;PTKQ1h]P>92
+R3
+!s105 and_A_sv_unit
+S1
+R0
+Z12 w1535697166
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/and_A.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/and_A.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/and_A.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/and_A.sv|
+!i113 1
+R6
+R10
+R8
+nand_@a
+vARM_RAM_INS
+R1
+Z13 !s110 1541936437
+!i10b 1
+!s100 GM4i:EPJd;3:TlN5V_lV:3
+IOQS;d]6inUzgjRKL0_6d[0
+R3
+!s105 ARM_RAM_INS_sv_unit
+S1
+R0
+w1541936344
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z14 !s108 1541936437.000000
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARM_RAM_INS.sv|
+!i113 1
+R6
+R7
+R8
+n@a@r@m_@r@a@m_@i@n@s
+vARMV4
+R1
+R13
+!i10b 1
+!s100 c67miTh4M]oO?DQWz_Y^?0
+IFId9dB^SGIzBBmhDFW6UL3
+R3
+!s105 ARMV4_sv_unit
+S1
+R0
+w1541925322
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARMV4.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARMV4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARMV4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/ARMV4.sv|
+!i113 1
+R6
+R7
+R8
+n@a@r@m@v4
+vconditional_logic
+R1
+R13
+!i10b 1
+!s100 3kehY]3CQX5i5m<`56[L=3
+INXHlbQ:QSk<m1nI2KfhZf2
+R3
+!s105 conditional_logic_sv_unit
+S1
+R0
+w1541926765
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditional_logic.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditional_logic.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z15 !s108 1541936436.000000
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditional_logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditional_logic.sv|
+!i113 1
+R6
+R7
+R8
+vconditions
+R1
+Z16 !s110 1541936436
+!i10b 1
+!s100 gMCnGT2`3kW^IoLO]1@bO3
+Ie9;j0I_fd_eIXg;j]eFUL3
+R3
+!s105 conditions_sv_unit
+S1
+R0
+w1541919166
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditions.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditions.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditions.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/conditions.sv|
+!i113 1
+R6
+R7
+R8
+vcontrol_unit
+R1
+R13
+!i10b 1
+!s100 @z3c9?io4_MZEJ_oE_1iZ1
+IObWnH@mohA57PFko9:[@P0
+R3
+!s105 control_unit_sv_unit
+S1
+R0
+w1541933512
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/control_unit.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/control_unit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/control_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/control_unit.sv|
+!i113 1
+R6
+R7
+R8
+vdata_memory
+R1
+Z17 !s110 1541936435
+!i10b 1
+!s100 S<XUn=V2LI_G1zIIng8Fj3
+Iz8V<=S3^[mQ?]khnk@4zR0
+R3
+!s105 data_memory_sv_unit
+S1
+R0
+w1541932721
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_memory.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_memory.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_memory.sv|
+!i113 1
+R6
+R7
+R8
+vdata_path
+R1
+R17
+!i10b 1
+!s100 7>KX`IZG@75^ekLUDLZHo1
+I8_jhkGc2z>@GEaAoY=H<F2
+R3
+!s105 data_path_sv_unit
+S1
+R0
+w1541773321
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z18 !s108 1541936435.000000
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/data_path.sv|
+!i113 1
+R6
+R7
+R8
+vdecoder
+R1
+R17
+!i10b 1
+!s100 i295M`ClkRFl`3;Jkc;9;0
+Io^^fdf?I=2oMh>fGCTI_j0
+R3
+!s105 decoder_sv_unit
+S1
+R0
+w1541916065
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/decoder.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/decoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/decoder.sv|
+!i113 1
+R6
+R7
+R8
+vextend
+R1
+R17
+!i10b 1
+!s100 0`i4=jZEZZYc5m[P`6OI>1
+ITkW:6Ga]LL=9Ma9T`1_c93
+R3
+!s105 extend_sv_unit
+S1
+R0
+w1541933513
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/extend.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/extend.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/extend.sv|
+!i113 1
+R6
+R7
+R8
+vflags
+R1
+R11
+!i10b 1
+!s100 Jf1CkL[1goB_[`Rb`JKLk2
+ISUnjDo1UR^:k@j56Sa7AD3
+R3
+!s105 flags_sv_unit
+S1
+R0
+w1541927175
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/flags.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/flags.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/flags.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/flags.sv|
+!i113 1
+R6
+R10
+R8
+vinstruction_memory
+R1
+Z19 !s110 1541936438
+!i10b 1
+!s100 jLn6^kTF9n_^8zMJPEfXF0
+ILR45C9[LgT<m0RWQi2bhP0
+R3
+!s105 instruction_memory_sv_unit
+S1
+R0
+w1541935443
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/instruction_memory.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/instruction_memory.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z20 !s108 1541936438.000000
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/instruction_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/instruction_memory.sv|
+!i113 1
+R6
+R7
+R8
+vleft_shift_arithmetic
+R1
+R11
+!i10b 1
+!s100 XkD=2BUPM9Y=Azn?C3>3n2
+I^cX4UC`DO>zVH4?c^Ez[Z2
+R3
+!s105 left_shift_arithmetic_sv_unit
+S1
+R0
+R12
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_arithmetic.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_arithmetic.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_arithmetic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_arithmetic.sv|
+!i113 1
+R6
+R10
+R8
+vleft_shift_logic
+R1
+Z21 !s110 1541936432
+!i10b 1
+!s100 mb[T^26n:D_j[k@z^>DPK0
+IcT4NHF0Kmkb5Ij6lioRz?3
+R3
+!s105 left_shift_logic_sv_unit
+S1
+R0
+R12
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_logic.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_logic.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z22 !s108 1541936432.000000
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/left_shift_logic.sv|
+!i113 1
+R6
+R10
+R8
+vmux_ALU
+R1
+R21
+!i10b 1
+!s100 ^XaTZaakMnMOOR]FnBPMX3
+I=m07[D@UM>E^Y;XbQ?bWa0
+R3
+!s105 mux_ALU_sv_unit
+S1
+R0
+w1541324042
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_ALU.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_ALU.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_ALU.sv|
+!i113 1
+R6
+R10
+R8
+nmux_@a@l@u
+vmux_Sumador
+R1
+R21
+!i10b 1
+!s100 [2hKeAHoJEVZzo^X?nIU72
+I2:]I0T_f=eh=?Yb74ABOQ1
+R3
+!s105 mux_Sumador_sv_unit
+S1
+R0
+w1539676995
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_Sumador.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_Sumador.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_Sumador.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/mux_Sumador.sv|
+!i113 1
+R6
+R10
+R8
+nmux_@sumador
+vmuxARM
+R1
+R2
+!i10b 1
+!s100 cSzbdF?OCX>`DISJHHIo23
+I`b0z6n=hZM2f=9g?VRiNC2
+R3
+!s105 muxARM_sv_unit
+S1
+R0
+w1541741118
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/muxARM.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/muxARM.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/muxARM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/muxARM.sv|
+!i113 1
+R6
+R7
+R8
+nmux@a@r@m
+vnot_A
+R1
+R21
+!i10b 1
+!s100 Sk@g51[mB?`YZWHI5jZbO3
+I<=ZNW^oXImcMHJb3ZXz:e3
+R3
+!s105 not_A_sv_unit
+S1
+R0
+w1535697158
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/not_A.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/not_A.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/not_A.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/not_A.sv|
+!i113 1
+R6
+R10
+R8
+nnot_@a
+vor_A
+R1
+R21
+!i10b 1
+!s100 Qb;^g5EfLR9KgOhG_P^AW0
+IRQiH3RGK=[_0XXJ7cP4lz0
+R3
+!s105 or_A_sv_unit
+S1
+R0
+R12
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/or_A.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/or_A.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/or_A.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/or_A.sv|
+!i113 1
+R6
+R10
+R8
+nor_@a
+vPC_REG
+R1
+R2
+!i10b 1
+!s100 1`7>WN<SP2i2XG]zmCe>:1
+Ih;?f8<CCd8aX?`jfAQj382
+R3
+!s105 PC_REG_sv_unit
+S1
+R0
+w1541741951
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/PC_REG.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/PC_REG.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/PC_REG.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/PC_REG.sv|
+!i113 1
+R6
+R7
+R8
+n@p@c_@r@e@g
+vREG_EN
+R1
+R16
+!i10b 1
+!s100 U:7mJXJ=oQMzJ0U[d7=zQ0
+I`4Vccj4nITW;E<Embl>RL2
+R3
+!s105 REG_EN_sv_unit
+S1
+R0
+w1541920329
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/REG_EN.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/REG_EN.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/REG_EN.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/REG_EN.sv|
+!i113 1
+R6
+R7
+R8
+n@r@e@g_@e@n
+vregister_file
+R1
+R19
+!i10b 1
+!s100 G6IDihjNcCd128o668;nj2
+Ieh?<@BfV^8ac=eW3cED`l2
+R3
+!s105 register_file_sv_unit
+S1
+R0
+w1541771460
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/register_file.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/register_file.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/register_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/register_file.sv|
+!i113 1
+R6
+R7
+R8
+vright_shift_arithmetic
+R1
+Z23 !s110 1541936431
+!i10b 1
+!s100 LI_1_zP0=b;mhHPOzfZ?K0
+I9j_kCM4hoF[UaZg;lkb8m3
+R3
+!s105 right_shift_arithmetic_sv_unit
+S1
+R0
+w1535728119
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_arithmetic.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_arithmetic.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z24 !s108 1541936431.000000
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_arithmetic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_arithmetic.sv|
+!i113 1
+R6
+R10
+R8
+vright_shift_logic
+R1
+R23
+!i10b 1
+!s100 KJdc>BU4RdfH_7:c6jKiQ3
+I^aG4BjG5GB4:G=o?XhF:E0
+R3
+!s105 right_shift_logic_sv_unit
+S1
+R0
+R12
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_logic.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_logic.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/right_shift_logic.sv|
+!i113 1
+R6
+R10
+R8
+vsumador
+R1
+R23
+!i10b 1
+!s100 lHRlaBAJ8Ya<537Eb=?T`0
+IHUH^a4^go50RWzdaEUb@@1
+R3
+!s105 sumador_sv_unit
+S1
+R0
+w1541933898
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/sumador.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/sumador.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/sumador.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/sumador.sv|
+!i113 1
+R6
+R10
+R8
+vtb_ARM_RAM_INS
+R1
+!s110 1541936430
+!i10b 1
+!s100 Ej`kAI5UiO:Gc]V:jRWko2
+I;BY`U<e?BFbLH5@FSVQBf3
+R3
+!s105 tb_ARM_RAM_INS_sv_unit
+S1
+R0
+w1541934284
+8C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_ARM_RAM_INS.sv
+FC:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_ARM_RAM_INS.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541936430.000000
+!s107 C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_ARM_RAM_INS.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4|C:/Users/Chris/Documents/TEC/Taller/Proyecto/Processor/ARMV4/tb_ARM_RAM_INS.sv|
+!i113 1
+R6
+R7
+R8
+ntb_@a@r@m_@r@a@m_@i@n@s
+vxor_A
+R1
+R23
+!i10b 1
+!s100 WjmMhg;dYf3>UBT7cmCRf2
+I]nAOldQ63H?BV8mb`Ga7W0
+R3
+!s105 xor_A_sv_unit
+S1
+R0
+R12
+8C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/xor_A.sv
+FC:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/xor_A.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/xor_A.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits|C:/Users/Chris/Documents/TEC/Taller/LAB_3/ALU_N_bits/xor_A.sv|
+!i113 1
+R6
+R10
+R8
+nxor_@a

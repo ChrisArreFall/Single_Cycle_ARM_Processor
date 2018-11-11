@@ -1,0 +1,10 @@
+module ARM_RAM_INS(input logic clk, reset, 
+					    output logic [31:0] WriteData, DataAdr, 
+					    output logic MemWrite);
+		
+		logic [31:0] PC, Instr, ReadData;
+		// instantiate processor and memories 
+		ARMV4 ARMV4_unit(clk, reset, PC, Instr, MemWrite, DataAdr, WriteData, ReadData); 
+		instruction_memory instruction_memory_unit(PC, Instr); 
+		data_memory data_memory_unit(clk, MemWrite, DataAdr, WriteData, ReadData); 
+endmodule
