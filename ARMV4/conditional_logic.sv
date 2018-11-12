@@ -1,4 +1,4 @@
-module conditional_logic(input logic clk, reset,
+module conditional_logic(input logic clk, reset,NoWrite,
 								 input logic [3:0] Cond, ALUFlags,
 								 input logic PCS,RegW,MemW,
 								 input logic [1:0] FlagW,
@@ -15,7 +15,7 @@ module conditional_logic(input logic clk, reset,
 	//FlagWrite[0] will only be 1 if selected flag is 1 and condition enable is on and we are doing a ADD, SUB o CMP.
 	assign FlagWrite = FlagW & {2{CondEx}}; 
 	//RegWrite will only be 1 if we want to write to a register and if selected flag is 1 
-	assign RegWrite = RegW & CondEx; 
+	assign RegWrite = RegW & CondEx & ~NoWrite; 
 	//MemWrite will only be 1 if we want to write to memory(ram) and if selected flag is 1
 	assign MemWrite = MemW & CondEx; 
 	//PCSrc will only be onw if we want to load an address in to the PC

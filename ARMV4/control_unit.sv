@@ -12,5 +12,5 @@ module  control_unit(input logic clk, reset,
 		logic PCS, RegW, MemW,NoWrite;
 		//								Op					funct				Rd
 		decoder decoder_unit(Instr[27:26], Instr[25:20], Instr[15:12], FlagW, PCS, RegW, MemW,NoWrite, MemtoReg, ALUSrc, immSrc, RegSrc, ALUControl); 
-		conditional_logic conditional_logic_unit(clk, reset, Instr[31:28], ALUFlags,PCS,RegW,MemW,FlagW,PCSrc,RegWrite,MemWrite); 
+		conditional_logic conditional_logic_unit(clk, reset,NoWrite, Instr[31:28], ALUFlags,PCS,RegW,MemW,FlagW,PCSrc,RegWrite,MemWrite); 
 endmodule

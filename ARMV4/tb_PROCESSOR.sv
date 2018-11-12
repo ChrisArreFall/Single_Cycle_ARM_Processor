@@ -1,9 +1,9 @@
-module tb_ARM_RAM_INS();
+module tb_PROCESSOR();
 	logic clk, reset;
 	logic [31:0] WriteData, DataAdr; 
 	logic MemWrite;
 	// instantiate device to be tested 
-	ARM_RAM_INS dut(clk, reset, WriteData, DataAdr, MemWrite);
+	PROCESSOR dut(clk, reset, WriteData, DataAdr, MemWrite);
 	// initialize test
 	
 	always 

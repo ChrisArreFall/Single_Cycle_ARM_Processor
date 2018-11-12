@@ -102,7 +102,7 @@ module decoder(input logic [1:0] Op,
 					default: ALUControl = 2'bx;
 				endcase
 				//if we are doing a CMP NoWrite is 1 else NoWrite is 0
-				NoWrite = (ALUControl==4'b0001) ? 1'b1 : 1'b0;
+				NoWrite = (funct[4:1]==4'b1010) ? 1'b1 : 1'b0;
 				//If our S bit or condition enable is on 
 				FlagW[1] = funct[0]; 
 				//If our S bit or condition enable is on and we are doing a ADD, SUB o CMP.

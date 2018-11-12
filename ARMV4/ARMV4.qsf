@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY tb_ARM_RAM_INS
+set_global_assignment -name TOP_LEVEL_ENTITY tb_PROCESSOR
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:07:35  NOVEMBER 08, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Lite Edition"
@@ -51,22 +51,21 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name SYSTEMVERILOG_FILE tb_ARM_RAM_INS.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/xor_A.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/sumador.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/simpleAdder.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/right_shift_logic.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/right_shift_arithmetic.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/or_A.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/not_A.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/mux_Sumador.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/mux_ALU.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/left_shift_logic.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/left_shift_arithmetic.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/flags.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/and_A.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/ALU_TEST.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/ALU_N_bits.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/xor_A.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/tb_ALU.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/sumador.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/simpleAdder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/right_shift_logic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/right_shift_arithmetic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/or_A.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/not_A.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/mux_Sumador.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/mux_ALU.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/left_shift_logic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/left_shift_arithmetic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/flags.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/and_A.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU/ALU_N_bits.sv
 set_global_assignment -name SYSTEMVERILOG_FILE tb_register_file.sv
 set_global_assignment -name SYSTEMVERILOG_FILE tb_instruction_memory.sv
 set_global_assignment -name SYSTEMVERILOG_FILE muxARM.sv
@@ -92,8 +91,8 @@ set_global_assignment -name SYSTEMVERILOG_FILE conditional_logic.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ARMV4.sv
 set_global_assignment -name SYSTEMVERILOG_FILE control_unit.sv
 set_global_assignment -name SYSTEMVERILOG_FILE tb_ARMV4.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../../LAB_3/ALU_N_bits/tb_ALU.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ARM_RAM_INS.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tb_PROCESSOR.sv
+set_global_assignment -name SYSTEMVERILOG_FILE PROCESSOR.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

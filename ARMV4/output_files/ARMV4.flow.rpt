@@ -1,5 +1,5 @@
 Flow report for ARMV4
-Sun Nov 11 05:39:42 2018
+Sun Nov 11 20:32:49 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,10 +40,10 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Sun Nov 11 05:39:42 2018       ;
+; Flow Status                 ; Successful - Sun Nov 11 20:32:49 2018       ;
 ; Quartus Prime Version       ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name               ; ARMV4                                       ;
-; Top-level Entity Name       ; tb_ARM_RAM_INS                              ;
+; Top-level Entity Name       ; tb_PROCESSOR                                ;
 ; Family                      ; Cyclone V                                   ;
 ; Device                      ; 5CSEMA5F31C6                                ;
 ; Timing Models               ; Final                                       ;
@@ -62,31 +62,31 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/11/2018 05:39:08 ;
+; Start date & time ; 11/11/2018 20:32:27 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ARMV4               ;
 +-------------------+---------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                               ;
-+-------------------------------------+----------------------------------------+---------------+----------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name    ; Section Id     ;
-+-------------------------------------+----------------------------------------+---------------+----------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 270877307826905.154193634714096        ; --            ; --             ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --             ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --             ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --             ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --             ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --             ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; tb_ARM_RAM_INS ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; tb_ARM_RAM_INS ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; tb_ARM_RAM_INS ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --             ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --             ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --             ; --             ;
-; TOP_LEVEL_ENTITY                    ; tb_ARM_RAM_INS                         ; ARMV4         ; --             ; --             ;
-+-------------------------------------+----------------------------------------+---------------+----------------+----------------+
++------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                             ;
++-------------------------------------+----------------------------------------+---------------+--------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name  ; Section Id     ;
++-------------------------------------+----------------------------------------+---------------+--------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 270877307826905.154198994708728        ; --            ; --           ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --           ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --           ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --           ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --           ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --           ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; tb_PROCESSOR ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; tb_PROCESSOR ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; tb_PROCESSOR ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --           ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --           ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --           ; --             ;
+; TOP_LEVEL_ENTITY                    ; tb_PROCESSOR                           ; ARMV4         ; --           ; --             ;
++-------------------------------------+----------------------------------------+---------------+--------------+----------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------+
@@ -94,8 +94,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:36     ; 1.0                     ; 4810 MB             ; 00:01:00                           ;
-; Total                  ; 00:00:36     ; --                      ; --                  ; 00:01:00                           ;
+; Analysis & Elaboration ; 00:00:23     ; 1.0                     ; 4799 MB             ; 00:00:49                           ;
+; Total                  ; 00:00:23     ; --                      ; --                  ; 00:00:49                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
