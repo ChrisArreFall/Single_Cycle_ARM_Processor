@@ -1,10 +1,10 @@
 module conditions(input logic [3:0] Cond, flags,
 						output logic result);
 	//flags 3 2 1 0
-	//      N Z C V
-	logic N,Z,C,V;
+	//      Z N C V
+	logic Z,N,C,V;
 	//we assign the flags recivied by the ALU to the variables created previously
-	assign {N,Z,C,V} = flags;
+	assign {Z,N,C,V} = flags;
 	//Here we compare the condition obtained from the instruction(31:28)
 	//and we return the result obtained by the ALU
 	always_comb 
